@@ -17,17 +17,6 @@ Les commandes commençant par `npm` devront être exécutées dans les dossiers 
 
 2. Lancer `npm ci` (Continuous Integration) pour installer les versions exactes des dépendances du projet. Ceci est possiblement seulement si le fichier `package-lock.json` existe. Ce fichier vous est fourni dans le code de départ.
 
-## Ajout de dépendances aux projets
-
-Vous pouvez ajouter d'autres dépendances aux deux projets avec la commande `npm install nomDependance`.
-
-Pour ajouter une dépendance comme une dépendance de développement (ex : librairie de tests, types TS, etc.) ajoutez l'option `--save-dev` : `npm install nomDependance --save-dev`.
-
-Un ajout de dépendance modifiera les fichiers `package.json` et `package-lock.json`.
-
-**Important** : assurez-vous d'ajouter ces modifications dans votre Git. N'installez jamais une dépendance du projet globalement.
-
-# Client
 
 ## Développement local
 
@@ -54,6 +43,4 @@ Pour obtenir de l'aide supplémentaire sur Angular CLI, utilisez `ng help` ou [A
 Pour la documentation d'Angular, vous pouvez la trouver [ici](https://angular.io/docs)
 
 Pour obtenir de l'aide supplémentaire sur les tests avec Angular, utilisez [Angular Testing](https://angular.io/guide/testing)
-
-# Serveur
 
